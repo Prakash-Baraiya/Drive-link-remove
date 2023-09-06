@@ -2,7 +2,7 @@ import os
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token obtained from BotFather on Telegram
-bot_token = 'YOUR_BOT_TOKEN'
+bot_token = '6488165968:AAFyogItsIQm2VEsk_GWRsZAXf3ZNij-t6s'
 
 def start(update, context):
     update.message.reply_text("Please send a .txt file containing name:url pairs.")
